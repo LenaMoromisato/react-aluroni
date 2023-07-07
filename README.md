@@ -1,3 +1,19 @@
+# Curso React: lidando com arquivos estáticos (Programa Desenvolve da Boticário e Alura)
+
+> Status do projeto: em desenvolvimento
+
+Conteúdo do curso:
+
+* Criar projetos usando Create React App; 
+
+* Vimos como podemos usar templates, como typescript para criar projetos com CRA e depois removemos o que não será utilizado neste projeto;
+
+* Usar CSS Modules com TypeScript e Sass;
+
+* Aplicamos estilos escritos em Sass via CSS Modules e adicionamos a capacidade do Visual Studio Code oferecer autocomplete dos módulos de estilos com typescript-plugin-css-modules;
+
+-----
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
