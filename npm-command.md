@@ -6,3 +6,6 @@ cd aluroni
 
 * Abrir Visual Studio Code:
 code .
+
+* Instalar CSS Modules:
+npm install -D typescript-plugin-css-modules sass
