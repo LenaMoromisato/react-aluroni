@@ -1,14 +1,11 @@
 import styles from './Cardapio.module.scss';
-// import logo from '../../assets/logo.svg'; -- importar para o reconhecimento do arquivo estático
-import {ReactComponent as Logo} from '../../assets/logo.svg'; // converte svg em componete react
+// import {ReactComponent as Logo} from '../../assets/logo.svg';
+import {ReactComponent as Logo} from 'assets/logo.svg'; // configuração de um caminho inicial em "tsconfig.json" "baseUrl": "src"
 
 export default function Cardapio() {
     return (
         <main>
             <nav className={styles.menu}>
-                {
-                    // <img src={logo} alt="logo do aluroni" />
-                }
                 <Logo />
             </nav>
         </main>
