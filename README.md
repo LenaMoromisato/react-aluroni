@@ -12,6 +12,18 @@ Conteúdo do curso:
 
 * Aplicamos estilos escritos em Sass via CSS Modules e adicionamos a capacidade do Visual Studio Code oferecer autocomplete dos módulos de estilos com typescript-plugin-css-modules;
 
+* **Importar um svg:** <br>
+Vimos como o webpack entende aquela string que fornecemos ao src da tag img e porque não funciona, então, aprendemos como importar um svg da forma correta.
+
+* **Utilizar um svg como componente:** <br>
+Melhoramos a nossa logo alterando a tag img por um componente que se torna um svg no final.
+
+* **Imports absolutos:** <br>
+Aprendemos como configurar e utilizar os imports absolutos para evitar voltar muitas pastas ao importar um arquivo.
+
+* **Utilizar a biblioteca reset css para resetar o css:** <br>
+Resetamos os estilos da nossa página utilizando uma biblioteca chamada reset.css que nos ajuda a limpar os estilos padrões de cada elemento de acordo com cada navegador.
+
 -----
 
 # Getting Started with Create React App
