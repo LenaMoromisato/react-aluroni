@@ -9,3 +9,6 @@ code .
 
 * Instalar CSS Modules:
 npm install -D typescript-plugin-css-modules sass
+
+* Instalar o normalize (reset.css):
+npm install normalize.css
