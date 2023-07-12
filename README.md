@@ -4,13 +4,13 @@
 
 Conteúdo do curso:
 
-* Criar projetos usando Create React App; 
+* **Criar projetos usando Create React App** <br> 
 
-* Vimos como podemos usar templates, como typescript para criar projetos com CRA e depois removemos o que não será utilizado neste projeto;
+* **Vimos como podemos usar templates, como typescript para criar projetos com CRA e depois removemos o que não será utilizado neste projeto** <br>
 
-* Usar CSS Modules com TypeScript e Sass;
+* **Usar CSS Modules com TypeScript e Sass** <br>
 
-* Aplicamos estilos escritos em Sass via CSS Modules e adicionamos a capacidade do Visual Studio Code oferecer autocomplete dos módulos de estilos com typescript-plugin-css-modules;
+* **Aplicamos estilos escritos em Sass via CSS Modules e adicionamos a capacidade do Visual Studio Code oferecer autocomplete dos módulos de estilos com typescript-plugin-css-modules** <br>
 
 * **Importar um svg:** <br>
 Vimos como o webpack entende aquela string que fornecemos ao src da tag img e porque não funciona, então, aprendemos como importar um svg da forma correta.
@@ -23,6 +23,21 @@ Aprendemos como configurar e utilizar os imports absolutos para evitar voltar mu
 
 * **Utilizar a biblioteca reset css para resetar o css:** <br>
 Resetamos os estilos da nossa página utilizando uma biblioteca chamada reset.css que nos ajuda a limpar os estilos padrões de cada elemento de acordo com cada navegador.
+
+* **Importar fontes externas** <br>
+Aprendemos como importar fontes externas no nosso projeto utilizando o google fonts.
+
+* **Utilizar o normalize.css** <br>
+Utilizamos o normalize.css para padronizar os estilos da página html em cada navegador.
+
+* **Utilizar ícones** <br>
+Aprendemos como é fácil utilizar ícones com a biblioteca react-icons.
+
+* **Ignorar arquivos para build** <br>
+Vimos como ignorar arquivos no momentos de build para que sejam utilizados apenas quando os chamar.
+
+* **Criar variáveis css** <br>
+Criamos variáveis css para nos auxiliar na padronização dos estilos da página, evitando repetição e facilitando na manutenção de código.
 
 -----
 
