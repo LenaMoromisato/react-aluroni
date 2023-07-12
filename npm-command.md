@@ -12,3 +12,6 @@ npm install -D typescript-plugin-css-modules sass
 
 * Instalar o normalize (reset.css):
 npm install normalize.css
+
+* Instalar o pacote de ícones React:
+npm install react-icons
