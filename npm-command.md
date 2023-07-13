@@ -15,3 +15,6 @@ npm install normalize.css
 
 * Instalar o pacote de ícones React:
 npm install react-icons
+
+* Instalar pacote de classes condicionais:
+npm install classnames
