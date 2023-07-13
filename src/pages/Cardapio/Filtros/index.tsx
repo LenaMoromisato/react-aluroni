@@ -25,7 +25,7 @@ export default function Filtros({ filtro, setFiltro }: Props) {
                     /*
                     className={`${styles.filtros__filtro} ${filtro === opcao.id ? styles["filtros__filtro--ativo"] : ""}`}
 
-                    formato antes do npm instal classnames
+                    *formato antes do npm instal classnames*
                     */
                     
                     className={classNames({
