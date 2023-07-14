@@ -1,6 +1,6 @@
 # Curso React: lidando com arquivos estáticos (Programa Desenvolve da Boticário e Alura)
 
-> Status do projeto: em desenvolvimento
+> Status do projeto: concluído
 
 Conteúdo do curso:
 
@@ -56,6 +56,15 @@ Arquivos estáticos que devem ser referenciados dinamicamente precisam estar den
 
 * **Gerar os arquivos utilizados em produção:** <br>
 Com o comando npm run build podemos verificar quais arquivos estarão presentes no ambiente de produção.
+
+* **Buscar com expressão regular:** <br>
+Utilizar expressões regulares em buscas de textos.
+
+* **Manipular elementos de uma lista:** <br>
+Alterar a quantidade ou ordenar os elementos de uma lista com métodos filter e sort.
+
+* **Tipar o useState:** <br>
+Escrever useState<Tipo> para tipar o state e o setState.
 
 -----
 
