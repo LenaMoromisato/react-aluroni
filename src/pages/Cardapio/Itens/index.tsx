@@ -11,11 +11,10 @@ interface Props {
 
 export default function Itens(props: Props) {
     const [lista, setLista] = useState(cardapio);
-    const { busca, filtro } = props;
+    const { busca, filtro, ordenador } = props;
 
     function testaBusca(title: string) {
-        const regex = new RegExp(busca, 'i'); // Essa busca vai ser case sensitive, então se colocar “macarrão”, ele não vai entender, porque o macarrão que está no título, está maiúsculo, “Macarrão”. Então para resolvermos esse problema, colocamos a vírgula dentro do RegExp, e o segundo parâmetro dele vai ser um i, que é uma string i. Nós dizemos para o RegExp que ele vai ser case insensitive, isso significa que se colocarmos o m, não vai importar, porque ele sempre vai testar só pela string, não por ser minúsculo ou maiúsculo, que é o que queremos.
-
+        const regex = new RegExp(busca, 'i');
         return regex.test(title);
     }
 
@@ -24,10 +23,23 @@ export default function Itens(props: Props) {
         return true;
     }
 
+    function ordenar(novaLista: typeof cardapio) {
+        switch(ordenador) {
+           case 'porcao':
+                return novaLista.sort((a, b) => a.size > b.size ? 1 : -1);
+            case 'qtd_pessoas':
+                return novaLista.sort((a, b) => a.serving > b.serving ? 1 : -1);
+            case 'preco':
+                return novaLista.sort((a, b) => a.price > b.price ? 1 : -1);
+            default:
+                return novaLista;
+        }
+    }
+
     useEffect(() => {
         const novaLista = cardapio.filter(item => testaBusca(item.title) && testaFiltro(item.category.id));
-        setLista(novaLista);
-    },[busca, filtro]);
+        setLista(ordenar(novaLista));
+    },[busca, filtro, ordenador]);
 
     return (
         <div className={styles.itens}>
