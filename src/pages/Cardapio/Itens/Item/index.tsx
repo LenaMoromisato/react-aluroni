@@ -21,6 +21,17 @@ export default function Item(props: Props) {
                         [styles.item__tipo]: true,
                         [styles[`item__tipo__${category.label.toLowerCase()}`]]: true,
                     })}>
+
+                        {/*
+                        Quando o valor da propriedade é true, podemos passar apenas o nome da classe como parâmetro e não como propriedade de um objeto.
+                        
+                        className={classNames(
+                            styles.item__tipo,
+                            styles[`item__tipo__${category.label.toLowerCase()}`]
+                        )}
+
+                        */}
+
                         {category.label}
                     </div>
                     <div className={styles.item_porcao}>
