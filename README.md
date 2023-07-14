@@ -48,6 +48,15 @@ Utilizamos [] em volta do nome da chave de um objeto quando o valor da chave é 
 * **Biblioteca classnames:** <br>
 Essa biblioteca nos permite concatenar classes CSS utilizando sintaxe de objetos.
 
+* **Renderizar uma lista de componentes:** <br>
+Podemos utilizar o spread operator para não precisar passar as props manualmente quando temos total controle do componente.
+
+* **Utilizar a pasta public:** <br>
+Arquivos estáticos que devem ser referenciados dinamicamente precisam estar dentro dessa pasta.
+
+* **Gerar os arquivos utilizados em produção:** <br>
+Com o comando npm run build podemos verificar quais arquivos estarão presentes no ambiente de produção.
+
 -----
 
 # Getting Started with Create React App
