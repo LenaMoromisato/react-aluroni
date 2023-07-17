@@ -15,3 +15,6 @@ npm init @eslint/config
 npx eslint ./src --fix
 
 * npm start
+
+* Instalar o React Router Dom:
+npm i react-router-dom
