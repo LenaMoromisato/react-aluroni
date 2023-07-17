@@ -11,6 +11,14 @@ O que é e como configurar o ESLint.
 
 * **Criar a página de início da aplicação.** <br>
 
+* **Separar os dados do cardápio para uma pasta separada.** <br>
+
+* **BrowserRouter e HashRouter:** <br>
+Diferença entre BrowserRouter e HashRouter.
+
+* **Routes:** <br>
+Utilizar o routes para alternar entre rotas.
+
 -----
 
 # Getting Started with Create React App
