@@ -1,3 +1,18 @@
+# Curso React: conhecendo a biblioteca React Router (Programa Desenvolve da Boticário e Alura)
+
+> Status do projeto: em desenvolvimento
+
+Conteúdo do curso:
+
+* **ESLint:** <br>
+O que é e como configurar o ESLint.
+
+* **Como corrigir erros de código seguindo as regras da configuração.** <br>
+
+* **Criar a página de início da aplicação.** <br>
+
+-----
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
