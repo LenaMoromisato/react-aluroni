@@ -1,3 +1,6 @@
+* Instalar os módulos:
+npm i
+
 * Criar o ESLint:
 npm init @eslint/config
 1 - To check syntax and find problems
@@ -8,5 +11,7 @@ npm init @eslint/config
 6 - JSON
 7 - Install Yes
 
-* Instalar o eslint para configuração das aspas simples (obs: se caso estiver aparencendo as aspas duplas):
-npm eslint ./src --flix
+* Executar o ESLint para resolver problemas automaticamente
+npx eslint ./src --fix
+
+* npm start
