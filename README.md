@@ -1,6 +1,6 @@
 # Curso React: conhecendo a biblioteca React Router (Programa Desenvolve da Boticário e Alura)
 
-> Status do projeto: em desenvolvimento
+> Status do projeto: concluído
 
 Conteúdo do curso:
 
@@ -46,6 +46,12 @@ Utilizar o routes para alternar entre rotas.
 * **Passar estados entre rotas.** <br>
 
 * **Refatorar tags.** <br>
+
+* **Acrescentar a tela NotFound na tela de detalhes.** <br>
+
+* **Utilizar o componente Navigate.** <br>
+
+* **Resolver o header.** <br>
 
 -----
 
