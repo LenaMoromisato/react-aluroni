@@ -35,6 +35,18 @@ Utilizar o routes para alternar entre rotas.
 
 * **Criar uma tela not found para páginas não encontradas.** <br>
 
+* **Criar a rota pratos.** <br>
+
+* **Passar parâmetros na rota.** <br>
+
+* **Criar detalhes do prato.** <br>
+
+* **Utilizar o hook useLocation.** <br>
+
+* **Passar estados entre rotas.** <br>
+
+* **Refatorar tags.** <br>
+
 -----
 
 # Getting Started with Create React App
