@@ -27,6 +27,14 @@ Utilizar o routes para alternar entre rotas.
 
 * **Fazer a página padrão.** <br>
 
+* **Desenvolver um tema para a aplicação.** <br>
+
+* **Aplicar o componente Outlet do react-router-dom.** <br>
+
+* **Utilizar o hook useNavigate para navegar entre rotas.** <br>
+
+* **Criar uma tela not found para páginas não encontradas.** <br>
+
 -----
 
 # Getting Started with Create React App
